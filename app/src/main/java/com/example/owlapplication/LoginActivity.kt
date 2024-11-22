@@ -32,6 +32,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.PasswordVisualTransformation
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.core.content.ContextCompat
@@ -59,7 +60,7 @@ fun LoginScreen(context: Context, databaseHelper: UserDatabaseHelper) {
         verticalArrangement = Arrangement.Center
     ) {
 
-        Image(painterResource(id = R.drawable.study_login), contentDescription = "")
+        Image(painterResource(id = R.drawable.login1), contentDescription = "")
 
         Text(
             fontSize = 36.sp,
@@ -142,4 +143,13 @@ fun LoginScreen(context: Context, databaseHelper: UserDatabaseHelper) {
 private fun startMainPage(context: Context) {
     val intent = Intent(context, MainActivity::class.java)
     ContextCompat.startActivity(context, intent, null)
+}
+
+
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun PreviewOne(){
+//    fun LoginScreen(context: Context, databaseHelper: UserDatabaseHelper) {
+//
+//    }
 }

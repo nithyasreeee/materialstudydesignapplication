@@ -52,10 +52,12 @@ int dimen notification_top_pad 0x7f030014
 int dimen notification_top_pad_large_text 0x7f030015
 int drawable ic_launcher_background 0x7f040001
 int drawable ic_launcher_foreground 0x7f040002
+int drawable icon 0x7f040017
 int drawable img_1 0x7f040003
 int drawable img_2 0x7f040004
 int drawable img_3 0x7f040005
 int drawable img_4 0x7f040006
+int drawable login1 0x7f040015
 int drawable notification_action_background 0x7f040007
 int drawable notification_bg 0x7f040008
 int drawable notification_bg_low 0x7f040009
@@ -68,6 +70,7 @@ int drawable notification_template_icon_bg 0x7f04000f
 int drawable notification_template_icon_low_bg 0x7f040010
 int drawable notification_tile_bg 0x7f040011
 int drawable notify_panel_notification_icon_bg 0x7f040012
+int drawable signup1 0x7f040016
 int drawable study_login 0x7f040013
 int drawable study_signup 0x7f040014
 int id accessibility_action_clickable_span 0x7f050000
